@@ -1,5 +1,4 @@
-Optimal Multi-User Transmit Beamforming:
-Difficult Problem with a Simple Solution Structure
+Optimal Multi-User Transmit Beamforming: Difficult Problem with a Simple Solution Structure
 ==================
 
 This is a code package is related to the follow “lecture note” article:
