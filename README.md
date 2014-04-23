@@ -1,9 +1,9 @@
-Optimal Multi-User Transmit Beamforming: Difficult Problem with a Simple Solution Structure
+Optimal Multiuser Transmit Beamforming: A Difficult Problem with a Simple Solution Structure
 ==================
 
 This is a code package is related to the follow “lecture note” article:
 
-Emil Björnson, Mats Bengtsson, and Björn Ottersten, “[Optimal Multi-User Transmit Beamforming: Difficult Problem with a Simple Solution Structure](http://arxiv.org/pdf/1404.0408),” to appear in IEEE Signal Processing Magazine.
+Emil Björnson, Mats Bengtsson, and Björn Ottersten, “[Optimal Multiuser Transmit Beamforming: A Difficult Problem with a Simple Solution Structure](http://arxiv.org/pdf/1404.0408),” to appear in IEEE Signal Processing Magazine.
 
 The package contains a simulation environment, based on Matlab, that reproduces all the numerical results and figures in the article. *We encourage you to also perform reproducible research!*
 
