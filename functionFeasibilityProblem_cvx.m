@@ -5,8 +5,8 @@ function [feasible,Wsolution] = functionFeasibilityProblem_cvx(H,D,Qsqrt,q,gamma
 %
 %The references to equations refer to the following book:
 %
-%Emil Björnson, Eduard Jorswieck, “Optimal Resource Allocation in
-%Coordinated Multi-Cell Systems,” Foundations and Trends in Communications
+%Emil BjÃ¶rnson, Eduard Jorswieck, â€œOptimal Resource Allocation in
+%Coordinated Multi-Cell Systems,â€ Foundations and Trends in Communications
 %and Information Theory, vol. 9, no. 2-3, pp. 113-381, 2013.
 %
 %The power minimization under QoS requirements is
@@ -23,7 +23,7 @@ function [feasible,Wsolution] = functionFeasibilityProblem_cvx(H,D,Qsqrt,q,gamma
 %constraints. The implementation can, at least, handle 30 users, 50
 %antennas, and 50 power constraints.
 %
-%This is version 1.1. (Last edited: 2014-03-26)
+%This is version 1.2. (Last edited: 2015-08-24)
 %
 %License: This code is licensed under the GPLv2 license. If you in any way
 %use this code for research that results in publications, please cite our
@@ -77,7 +77,7 @@ for k = 1:Kr
     imag(hkD(k,:)*W(:,k)) == 0; %Useful link is assumed to be real-valued
     
     %SOCP formulation for the SINR constraint of user k
-    real(hkD(k,:)*W(:,k)) >= sqrt(gammavar(k))*norm([1; diag(hkD([1:k-1 k+1:Kr],:)*W(:,[1:k-1 k+1:Kr]))  ]);
+    real(hkD(k,:)*W(:,k)) >= sqrt(gammavar(k))*norm([1 hkD(k,:)*W(:,[1:k-1 k+1:Kr])  ]);
 end
 
 %Power constraints (L constraints) scaled by the variable betavar
