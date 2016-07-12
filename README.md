@@ -1,7 +1,7 @@
 Optimal Multiuser Transmit Beamforming: A Difficult Problem with a Simple Solution Structure
 ==================
 
-This is a code package is related to the follow “lecture note” article:
+This is a code package is related to the following “lecture note” article:
 
 Emil Björnson, Mats Bengtsson, and Björn Ottersten, “[Optimal Multiuser Transmit Beamforming: A Difficult Problem with a Simple Solution Structure](http://arxiv.org/pdf/1404.0408),” IEEE Signal Processing Magazine, vol. 31, no. 4, pp. 142-148, July 2014.
 
