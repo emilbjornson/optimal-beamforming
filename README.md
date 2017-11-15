@@ -45,7 +45,7 @@ The package contains 7 additional Matlab functions: functionBRBalgorithm_cvx.m, 
 
 Emil Björnson, Eduard Jorswieck, “[Optimal Resource Allocation in Coordinated Multi-Cell Systems,” Foundations and Trends in Communications and Information Theory](http://kth.diva-portal.org/smash/get/diva2:608533/FULLTEXT01), vol. 9, no. 2-3, pp. 113-381, 2013.
 
-The optimal beamforming is computed as a sequence of convex optimization problems, which are implemented and solved using the modeling language [CVX](http://cvxr.com/cvx/).
+The optimal beamforming is computed as a sequence of convex optimization problems, which are implemented and solved using the modeling language [CVX](http://cvxr.com/cvx/). You need to install CVX and a suitable solver to run the code. Follow the instructions on the CVX homepage.
 
 See each file for further documentation. 
 
